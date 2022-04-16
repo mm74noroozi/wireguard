@@ -5,6 +5,9 @@
 - youtube
     
         142.250.0.0/15
+    googlevideo.com
+        
+        72.125.0.0/16
 - telegram
 
         149.154.160.0/21
