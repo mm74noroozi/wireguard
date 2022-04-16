@@ -1,17 +1,18 @@
 # wireguard
 ## commands
-
+generate private key
+    
     wg genkey >privkey.pem
----
+generate preshared key
 
     wg genpsk >psk.pem
----
+genrate public key based on private key
 
     cat privkey.pem|wg pubkey > pubkey.pem
----
+up wireguard
 
     wg-quick up wg0
----
+auto startup wireguard
 
     systemctl enable wg-quick@wg0
 ## filter local ips
